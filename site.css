@@ -271,3 +271,7 @@ details.region{ background:var(--paper); border:1px solid var(--line); border-ra
 .foot a{ color:var(--mute-on-dark); text-decoration:none; font-size:13.5px; font-weight:600; }
 .foot a:hover{ color:#fff; }
 .foot .fine{ width:100%; font-size:11.5px; letter-spacing:.05em; color:#6c7078; }
+
+/* breathing room between hero text and the deco frame */
+.hero .inner{ padding-left:56px; padding-right:56px; }
+@media (max-width:720px){ .hero .inner{ padding-left:34px; padding-right:34px; } }

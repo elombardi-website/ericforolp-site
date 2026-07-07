@@ -300,3 +300,11 @@ table.fa th.r, table.fa td.r{ width:82px; }
 .connect .col h3{ font-family:var(--sans); font-weight:800; font-size:12px; letter-spacing:.14em;
   text-transform:uppercase; color:var(--mute-on-dark); letter-spacing:.14em; }
 .connect .col p{ font-size:14px; color:var(--mute-on-dark); line-height:1.55; margin:10px 0 14px; }
+
+/* centre the case column (and its heading) within the page */
+.case{ margin:0 auto; }
+.wrap:has(> .case) > .head{ max-width:780px; margin-left:auto; margin-right:auto; }
+
+/* breathing room between hero text and the deco frame */
+.hero .inner{ padding-left:56px; padding-right:56px; }
+@media (max-width:720px){ .hero .inner{ padding-left:34px; padding-right:34px; } }
