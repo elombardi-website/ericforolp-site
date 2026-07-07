@@ -271,3 +271,8 @@ details.region{ background:var(--paper); border:1px solid var(--line); border-ra
 .foot a{ color:var(--mute-on-dark); text-decoration:none; font-size:13.5px; font-weight:600; }
 .foot a:hover{ color:#fff; }
 .foot .fine{ width:100%; font-size:11.5px; letter-spacing:.05em; color:#6c7078; }
+
+/* card banner focal points — keep faces/subjects in frame */
+.card .cimg img[src$="health.jpg"]{ object-position:50% 22%; }
+.card .cimg img[src$="youth.jpg"]{ object-position:50% 25%; }
+.card .cimg img[src$="justice.jpg"]{ object-position:50% 30%; }
