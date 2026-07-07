@@ -21,22 +21,14 @@ and keynote (PP Watch / PP Pangram Sans, brand red `#E81E25`).
 
 ## Publishing on GitHub Pages
 
-One-time setup, from this `Website/` folder in Terminal:
+**Already set up (Jul 7, 2026).** This folder is a git repository connected to
+GitHub account **elombardi-website**, and the site is live at:
 
-```bash
-cd "/Users/ericlombardi/HSR Proposal/Website"
-git init
-git add -A
-git commit -m "Campaign site"
-# create the repo on GitHub (install GitHub CLI with: brew install gh)
-gh auth login
-gh repo create ericforolp-site --private --source=. --push
-```
+> https://elombardi-website.github.io/ericforolp-site/
 
-Then turn on Pages: on github.com open the repo → **Settings → Pages** →
-under "Build and deployment" set **Source: Deploy from a branch**, branch
-`main`, folder `/ (root)` → Save. The site goes live at
-`https://<your-username>.github.io/ericforolp-site/` within a couple of minutes.
+Repository: https://github.com/elombardi-website/ericforolp-site
+(public — required for free GitHub Pages; it's all public campaign content).
+GitHub Pages is configured to serve the `main` branch, root folder.
 
 ### Pointing your real domain at it
 
@@ -57,7 +49,9 @@ URLs. Test everything on the `github.io` URL first. If you want to keep the
 Webflow form alive, host this site on a subdomain first (e.g. `new.ericforolp.ca`)
 or move the form to Tally/Formspree before cutting over.
 
-### Publishing updates after the first time
+### Publishing updates
+
+After changing anything (or running `add_post.py` / `add_news.py`), run:
 
 ```bash
 cd "/Users/ericlombardi/HSR Proposal/Website"
@@ -66,7 +60,9 @@ git commit -m "describe what changed"
 git push
 ```
 
-Pages redeploys automatically on every push (~1 minute).
+Pages redeploys automatically on every push (~1 minute). You can also edit
+files directly in the browser on github.com (open the file → pencil icon →
+Commit changes) — same automatic redeploy.
 
 ## Where photos go
 
