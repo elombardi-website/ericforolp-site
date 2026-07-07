@@ -117,12 +117,15 @@ b.addEventListener("click",function(){var o=h.classList.toggle("open");b.setAttr
 FOOT = """<footer class="foot"><div class="inner">
   <div class="fm"><span class="dot"></span>Eric Lombardi for Ontario</div>
   <nav>
-    <a href="../index.html">Home</a>
     <a href="../platform/index.html">Platform</a>
+    <a href="../blog.html">Blog</a>
     <a href="../news.html">News</a>
-    <a href="https://donate.ericforolp.ca">Donate</a>
+    <a href="https://ericforolp.ca/hsr">HSR Map</a>
+    <a href="https://everyriding.ericforolp.ca">Every Riding</a>
+    <a href="../privacy-policy.html">Privacy Policy</a>
+    <a href="../terms-of-service.html">Terms of Service</a>
   </nav>
-  <div class="fine">© 2026 Eric Lombardi. All rights reserved. · <a href="../privacy-policy.html" style="color:inherit;">Privacy</a> · <a href="../terms-of-service.html" style="color:inherit;">Terms</a></div>
+  <div class="fine">© 2026 Eric Lombardi. All rights reserved. · Authorized by the CFO of the Eric Lombardi Ontario Liberal Party Leadership Campaign.</div>
 </div></footer>"""
 
 FAVICON = """<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='8' y='8' width='16' height='16' transform='rotate(45 16 16)' fill='%23E81E25'/%3E%3C/svg%3E">"""
