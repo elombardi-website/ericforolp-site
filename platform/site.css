@@ -276,3 +276,11 @@ details.region{ background:var(--paper); border:1px solid var(--line); border-ra
 .card .cimg img[src$="health.jpg"]{ object-position:50% 22%; }
 .card .cimg img[src$="youth.jpg"]{ object-position:50% 25%; }
 .card .cimg img[src$="justice.jpg"]{ object-position:50% 30%; }
+
+/* deterministic column widths — Lower/Upper align across all tables and pages */
+table.fin{ table-layout:fixed; }
+table.fin th.r, table.fin td.r{ width:110px; }
+table.fa{ table-layout:fixed; }
+table.fa th:first-child, table.fa td:first-child{ width:26%; }
+table.fa th.r, table.fa td.r{ width:82px; }
+@media (max-width:620px){ table.fin th.r, table.fin td.r{ width:88px; } }
