@@ -308,3 +308,7 @@ table.fa th.r, table.fa td.r{ width:82px; }
 /* breathing room between hero text and the deco frame */
 .hero .inner{ padding-left:56px; padding-right:56px; }
 @media (max-width:720px){ .hero .inner{ padding-left:34px; padding-right:34px; } }
+
+/* pin the fiscal pill row to the card bottom — equal-height cards, gap above the divider */
+.card .cgoals{ margin-bottom:16px; }
+.card .cfoot{ margin-top:auto; }
