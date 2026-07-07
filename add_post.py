@@ -167,6 +167,8 @@ def main():
 {FAVICON}
 <link rel="stylesheet" href="../site.css">
 <link rel="stylesheet" href="../home.css">
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
 </head>
 <body>
 

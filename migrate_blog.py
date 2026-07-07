@@ -145,7 +145,9 @@ def page(title_text, desc, hero, content, prefix, extra_head=""):
 {FAVICON}
 <link rel="stylesheet" href="{prefix}site.css">
 <link rel="stylesheet" href="{prefix}home.css">
-{extra_head}</head>
+{extra_head}<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+</head>
 <body>
 
 {NAV.format(p=prefix)}
