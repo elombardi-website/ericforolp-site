@@ -312,3 +312,6 @@ table.fa th.r, table.fa td.r{ width:82px; }
 /* pin the fiscal pill row to the card bottom — equal-height cards, gap above the divider */
 .card .cgoals{ margin-bottom:16px; }
 .card .cfoot{ margin-top:auto; }
+
+/* centre the PDF download card within the page */
+.dlcard{ justify-content:center; }
